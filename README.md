@@ -20,6 +20,7 @@ Table Creation: A table named sales is created to store the sales data. The tabl
 CREATE DATABASE retail_sales;
 
 CREATE TABLE sales
+
 (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
@@ -57,14 +58,17 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
     
 3. Data Analysis & Findings
+
 The following SQL queries were developed to answer specific business questions:
 
-Write a SQL query to retrieve all columns for sales made on '2022-11-05:
+Q1. Write a SQL query to retrieve all columns for sales made on '2022-11-05:
+
 SELECT *
 FROM retail_sales
 WHERE sale_date = '2022-11-05';
 
-Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
+Q 2. Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
+
 SELECT 
   *
 FROM retail_sales
