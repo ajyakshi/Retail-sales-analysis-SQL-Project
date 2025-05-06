@@ -15,7 +15,9 @@ Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to unde
 Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
 
 Project Structure
-1. Database Setup
+
+Database Setup
+
 Database Creation: The project starts by creating a database named retail_sales.
 Table Creation: A table named sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
