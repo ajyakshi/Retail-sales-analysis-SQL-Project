@@ -53,7 +53,7 @@ select count(distinct customer_id) as customer_count from sales;
 select count(distinct category) as category_count from sales;
 select distinct category  from sales;
 -- Data Analysis , Business key problems & Answers
--- q1 Write SQL query to retrieve all columns for sales males on 2022-11-05
+-- q1 Write SQL query to retrieve all columns for sales made on 2022-11-05
 select * from sales;
 select * from sales
 where sale_date = '2022-11-05';
